@@ -1,0 +1,22 @@
+{
+  "posts": [
+    {
+      "Email": "viji123@gmail.com",
+      "Password": "ramya",
+      "ConfirmPassword": "ramya",
+      "id": 1
+    },
+    {
+      "Email": "abcd123@gmail.com",
+      "Password": "123456",
+      "ConfirmPassword": "123456",
+      "id": 2
+    },
+    {
+      "Email": "viji123@gamil.com",
+      "Password": "viji",
+      "ConfirmPassword": "viji",
+      "id": 3
+    }
+  ]
+}

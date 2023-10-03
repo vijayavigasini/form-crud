@@ -1,0 +1,47 @@
+<!-- <div class="container">
+    <div class="card">
+        <h3>Sign Up </h3>
+        <form [formGroup]="createaccount">
+            <div class="form-group design">
+            <input type="email" placeholder="Email" class="form-control" formControlName="email">
+        </div>
+        <div class="form-group design">
+            <input type="password" placeholder="Password" class="form-control" formControlName="password">
+        </div>
+        <div class="form-group design">
+            <input type="password" placeholder="Confirm Password" class="form-control" formControlName="confirmpassword">
+        </div>
+        <br>
+        
+       <p style="font-size: 15px;">By creating an account ,you agree to the Terms of service and Privacy Policy</p>
+    
+       <button (click)="addsignup(this.createaccount.value)" [disabled]="this.createaccount.invalid" type="button" class="btn btn-warning sibn mt-3">CREATE A NEW ACCOUNT</button>
+        <br>
+        <br>
+        <p style="color: orangered;margin-left: 50px">Have an account?<a routerLink="/signin" style="color: orangered;">Sign In</a></p> 
+        <br>
+    </form>
+    </div>
+</div>
+ -->
+ <div class="container">
+    <div class="card">
+        <h3>Sign Up</h3>
+        <form [formGroup]="createaccount">
+<div class="form-group design">
+<input type="email" placeholder="Email" class="form-control" formControlName="Email">    
+</div>
+<div class="form-group design">
+    <input type="password" placeholder="Password" class="form-control"formControlName="Password">    
+    </div>
+    <div class="form-group design">
+        <input type="password" placeholder="Confirm Password" class="form-control" formControlName="ConfirmPassword">    
+        </div>
+        <p style="text-align: justify; margin-left: 10px; margin-top: 18px;">By creating an account,you agree to the<br>
+            <u>Terms of service</u> and <u>Privacy Policy</u></p>
+            <button (click)="addsignup(this.createaccount.value)" [disabled]="this.createaccount.invalid" type="button" class="btn btn-warning sibn mt-3">CREATE A NEW ACCOUNT</button>
+        </form>
+        <br>
+        <P style="color: orangered; margin-left: 45px; margin-top: 5px; font-weight: 500;">Have an account? <a routerLink="/signin" style="color: orangered; font-weight: 500;">Sign In</a></P>
+    </div>
+</div>
